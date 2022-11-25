@@ -1,0 +1,6 @@
+list=[1,4,6,3,8,9]
+n=0
+for i in list:
+    if n%2:
+       n+=list
+       print("sum of the even numbers",n)
