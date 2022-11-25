@@ -1,0 +1,7 @@
+list=[1,5,7,9,4]
+print("Enter any element")
+n=int(input())
+if n in list:
+    print("Element is present")
+else:
+    print("Element is not present")
