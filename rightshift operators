@@ -1,4 +1,4 @@
-#program to perform 1 to 10 rightshift operators
+#program to perform 2 to 10 rightshift operators
 n=int(input("Enter the number:"))
 print(n<<2)
 print(n<<3)
