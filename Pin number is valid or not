@@ -1,0 +1,8 @@
+#program to check pin number is valid or not
+Pin1=2004
+Pin2=int(input("Enter the pin number")
+if Pin1==Pin2:
+   print("Continue the transaction")
+else:
+    print("Incorrect pin number")
+    print("Please try again")
