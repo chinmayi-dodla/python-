@@ -1,0 +1,49 @@
+Capsicum=50
+Tomatoes=45
+Brinjal=30
+Carrot=30
+Cabbage =25
+cphno=int(input("Enter the customer phone number"))
+name=input("Enter customer name")
+add=input("Enter customer address")
+to=int(input("How many kg's do you want"))
+cap=int(input("How many kg's do you want"))
+bj=int(input("How many kg's do you want"))
+car=int(input("How many kg's do you want"))
+cab=int(input("How many kg's do you want"))
+bill=(Brinjal*bj)+(Capsicum*cap)+(Tomatoes*to)+(Cabbage*cab)+(Carrot*car)
+coupon=int(input("Enter coupon code"))
+if bill>3000:
+   tax=bill*5/100
+elif bill>2000:
+    tax=bill*7/100
+elif bill>1000:
+    tax=bill*10/100
+elif bill>500:
+    tax=bill*15/100
+else:
+    tax=100
+if coupon==DIWALI and bill>=5000:
+   dis=bill*10/100
+elif coupon==DIWALI and bill>=3000:
+   dis=bill*5/100
+elif coupon==DIWALI and bill>=1000:
+   dis=bill*4/100
+else:
+   dis=0
+print("Discount",dis)
+if coupon==CHRISMAS and bill>=3000:
+   dis=bill*20/100
+elif coupon==DIWALI and bill>=2000:
+   dis=bill*10/100
+elif coupon==DIWALI and bill>=1000:
+   dis=bill*5/100
+else:
+   dis=0
+print("Discount",dis)
+tax=tax+bill
+print("cphno",cphno)
+print ("name",name)
+print("address",add)
+print("Tax",tax)
+print("Bill",bill)
