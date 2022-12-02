@@ -1,0 +1,30 @@
+def biggestnum(a,b):
+   if a>b:
+     print("A is big")
+   else:
+     print("B is big")
+   a=int(input("Enter Value for A:"))
+   b=int(input("Enter Value for B:"))
+   biggestnum(a,b)
+                (Or)
+def biggestnum(a,b):
+   if a>b:
+     return True
+   else:
+     return False 
+   a=int(input("Enter Value for A:"))
+   b=int(input("Enter Value for B:"))
+   print(biggestnum(a,b))
+                 (Or)
+def biggestnum(a,b):
+   if a>b:
+     return True
+   else:
+     return False 
+   a=int(input("Enter Value for A:"))
+   b=int(input("Enter Value for B:"))
+   if(biggestnum(a,b)):
+      print("A is big")
+   else:
+     print("B is big")
+      
